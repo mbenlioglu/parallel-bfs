@@ -14,4 +14,30 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\bfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\karate.mtx" />
+    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\Makefile" />
+  </ItemGroup>
 </Project>
