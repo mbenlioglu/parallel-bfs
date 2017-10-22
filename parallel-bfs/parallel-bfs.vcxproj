@@ -111,18 +111,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\bfs.c" />
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.c" />
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.c" />
+    <ClCompile Include=".\bfs.c" />
+    <ClCompile Include=".\graphio.c" />
+    <ClCompile Include=".\mmio.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graph.h" />
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.h" />
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.h" />
+    <ClInclude Include=".\graph.h" />
+    <ClInclude Include=".\graphio.h" />
+    <ClInclude Include=".\mmio.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\karate.mtx" />
-    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\Makefile" />
+    <None Include=".\karate.mtx" />
+    <None Include=".\Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
