@@ -1,0 +1,13 @@
+down:
+	curl -O https://sparse.tamu.edu/MM/Gleich/usroads.tar.gz
+	curl -O https://sparse.tamu.edu/MM/DIMACS10/M6.tar.gz
+	curl -O https://sparse.tamu.edu/MM/DIMACS10/hugetrace-00020.tar.gz
+	curl -O https://sparse.tamu.edu/MM/DIMACS10/europe_osm.tar.gz
+extract: usroads.tar.gz M6.tar.gz hugetrace-00020.tar.gz europe_osm.tar.gz
+	tar -xzvf usroads.tar.gz
+	tar -xzvf M6.tar.gz
+	tar -xzvf hugetrace-00020.tar.gz
+	tar -xzvf europe_osm.tar.gz
+clean:
+	rm usroads.tar.gz M6.tar.gz hugetrace-00020.tar.gz europe_osm.tar.gz
+

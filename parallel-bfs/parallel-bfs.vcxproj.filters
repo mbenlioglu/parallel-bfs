@@ -15,29 +15,29 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\bfs.c">
+    <ClCompile Include=".\bfs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.c">
+    <ClCompile Include=".\graphio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.c">
+    <ClCompile Include=".\mmio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graph.h">
+    <ClInclude Include=".\graph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\graphio.h">
+    <ClInclude Include=".\graphio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\mmio.h">
+    <ClInclude Include=".\mmio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\karate.mtx" />
-    <None Include="..\..\..\..\Sabancı University\Senior\2nd term\cs406\hw\hw1\Makefile" />
+    <None Include=".\karate.mtx" />
+    <None Include=".\Makefile" />
   </ItemGroup>
 </Project>

@@ -294,3 +294,4 @@ __pycache__/
 *.app
 
 data/
+*.bin

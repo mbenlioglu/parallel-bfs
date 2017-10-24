@@ -5,4 +5,4 @@ bfs: bfs.c
 	gcc bfs.c -fopenmp -c -O3
 	gcc -o bfs bfs.o mmio.o graphio.o -O3 -fopenmp
 clean:
-	rm bfs *.o *~
+	rm bfs *.o
